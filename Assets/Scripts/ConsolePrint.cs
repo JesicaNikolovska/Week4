@@ -9,12 +9,12 @@ public class ConsolePrint : MonoBehaviour
     void Start()
     {
          
-        Debug.Log("GameObject_" + gameObject.name + ":" + i);
+        Debug.Log(gameObject.name + (i + 1));
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("GameObject_" + gameObject.name + ":" + (i + 1));
+        Debug.Log(gameObject.name + (i++));
     }
 }
