@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4c5e982a0d50d04a973bcbc637b19ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  redObj: {fileID: 6963071947171467405, guid: 654a4d21ff05faf43a5e3ff62328a150, type: 3}
+  redObj: {fileID: 1472987256795570306, guid: 771b4394887a60c479452a366ddf640a, type: 3}
 --- !u!4 &29127037
 Transform:
   m_ObjectHideFlags: 0
