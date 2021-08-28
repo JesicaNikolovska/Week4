@@ -15,11 +15,11 @@ C:/Users/jesni/Downloads/LabWeek4
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58588
+61581
 Successfully changed project path to: C:/Users/jesni/Downloads/LabWeek4
 C:/Users/jesni/Downloads/LabWeek4
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.4f1 (becced5a802b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,188 +35,580 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005215 seconds.
+Registered in 0.013919 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 26.04 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 38.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.418 seconds
+- Completed reload, in  2.227 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001817 seconds.
+Registered in 0.001869 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
+- Completed reload, in  1.267 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1079 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.9 MB.
+System memory in use after: 56.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1523.
+Total: 3.278800 ms (FindLiveObjects: 0.225800 ms CreateObjectMapping: 0.078700 ms MarkObjects: 2.832900 ms  DeleteObjects: 0.138500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.065425 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.068845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078725 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000537 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.003475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032479 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001064 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.004463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018909 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000445 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027616 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000344 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024982 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000426 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018630 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000373 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020652 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000480 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018534 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000362 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022123 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000365 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016029 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000338 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024974 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000573 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.006348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053742 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000350 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.001948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135003 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000846 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.022439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129716 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000338 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022472 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000383 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.003119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018547 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000338 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020201 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000401 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015851 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000342 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014851 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000395 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015634 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000438 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.004102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016473 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000480 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022816 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000375 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017455 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000387 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014154 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000284 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.001934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016514 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000394 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023382 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000376 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020750 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000451 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.003690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019419 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000480 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020309 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000455 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.003023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021823 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000325 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.001945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016705 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000342 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018067 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000282 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017218 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000389 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021272 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000407 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016470 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000373 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019645 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000333 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.001979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019126 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000430 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020434 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000388 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014432 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000425 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016115 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000407 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017912 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000281 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.001853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021304 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000363 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017035 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000415 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019498 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000277 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.001840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015396 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000414 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015134 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000295 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.001916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022268 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000396 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017662 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000360 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016857 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000404 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017700 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000402 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020933 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000330 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016529 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000388 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016438 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000504 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015907 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000347 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021151 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000291 seconds
+  ERROR: Build asset version error: assets/scripts/consoleprint.cs in SourceAssetDB has modification time of '2021-08-28T09:51:00.6142145Z' while content on disk has modification time of '2021-08-28T09:51:03.9937321Z'
+  Import took 0.002322 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002201 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1075 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 55.8 MB.
 System memory in use after: 55.9 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1521.
-Total: 2.792000 ms (FindLiveObjects: 0.271000 ms CreateObjectMapping: 0.084700 ms MarkObjects: 2.327400 ms  DeleteObjects: 0.103800 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1525.
+Total: 2.505100 ms (FindLiveObjects: 0.170800 ms CreateObjectMapping: 0.052800 ms MarkObjects: 2.215600 ms  DeleteObjects: 0.064300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Week4Scene.unity
-  artifactKey: Guid(b725256cb029d45cf99d07026e380c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Week4Scene.unity using Guid(b725256cb029d45cf99d07026e380c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af621325574c0c84a7f1493e6b3cfaaa') in 0.024363 seconds
-  Import took 0.026923 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001796 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.321 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1073 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.7 MB.
-System memory in use after: 55.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1523.
-Total: 4.100000 ms (FindLiveObjects: 0.430000 ms CreateObjectMapping: 0.104700 ms MarkObjects: 3.493800 ms  DeleteObjects: 0.061800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 215.006656 seconds.
-  path: Assets/Scenes/Week4Scene.unity
-  artifactKey: Guid(b725256cb029d45cf99d07026e380c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Week4Scene.unity using Guid(b725256cb029d45cf99d07026e380c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32b0ae16e9c86990a887c3e1d54a239') in 0.025789 seconds
-  Import took 0.029125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 105.742460 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc3feb264a98656617d3c2cb59c8f16') in 0.012385 seconds
-  Import took 0.014898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.961526 seconds.
-  path: Assets/Material
-  artifactKey: Guid(dcf99c547357790488060cc3864aa0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material using Guid(dcf99c547357790488060cc3864aa0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179afb70ab2a95354486cc1c952b83e1') in 0.012244 seconds
-  Import took 0.015322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.998025 seconds.
-  path: Assets/Material/red material.mat
-  artifactKey: Guid(166c3a3fcbd303a46983fea901dcac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/red material.mat using Guid(166c3a3fcbd303a46983fea901dcac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b764042e2922b7103fcf117f41ebad') in 0.183300 seconds
-  Import took 0.186297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.358804 seconds.
-  path: Assets/Material/Blue Material.mat
-  artifactKey: Guid(b862ddcf6a323d641be8984d5b511636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Blue Material.mat using Guid(b862ddcf6a323d641be8984d5b511636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a8d7526b56748634fc9456cf1cf145') in 0.029062 seconds
-  Import took 0.031592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 248.711685 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(a6c8fe26393b9a34e958b7da1e5985f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(a6c8fe26393b9a34e958b7da1e5985f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215f13302e808f75640f711ff924cdc8') in 0.011825 seconds
-  Import took 0.015310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.755913 seconds.
-  path: Assets/Prefabs/Sphere1.prefab
-  artifactKey: Guid(654a4d21ff05faf43a5e3ff62328a150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sphere1.prefab using Guid(654a4d21ff05faf43a5e3ff62328a150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054417130f7fde31b7b55352c388f813') in 0.038628 seconds
-  Import took 0.041101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003787 seconds.
-  path: Assets/Prefabs/Sphere1.prefab
-  artifactKey: Guid(654a4d21ff05faf43a5e3ff62328a150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sphere1.prefab using Guid(654a4d21ff05faf43a5e3ff62328a150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054417130f7fde31b7b55352c388f813') in 0.018635 seconds
-  Import took 0.022228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.067311 seconds.
-  path: Assets/Prefabs/Sphere2.prefab
-  artifactKey: Guid(a8de4d8e8f1a14c479994ad70511bc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sphere2.prefab using Guid(a8de4d8e8f1a14c479994ad70511bc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729ea05a5b415c49716eefefc28010c3') in 0.025648 seconds
-  Import took 0.028851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017258 seconds.
-  path: Assets/Prefabs/Sphere2.prefab
-  artifactKey: Guid(a8de4d8e8f1a14c479994ad70511bc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sphere2.prefab using Guid(a8de4d8e8f1a14c479994ad70511bc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729ea05a5b415c49716eefefc28010c3') in 0.024213 seconds
-  Import took 0.027008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.799581 seconds.
-  path: Assets/Scripts/LoadAssets.cs
-  artifactKey: Guid(f4c5e982a0d50d04a973bcbc637b19ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoadAssets.cs using Guid(f4c5e982a0d50d04a973bcbc637b19ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36465271e4cc26512f0d1103fbfef575') in 0.012904 seconds
-  Import took 0.015577 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001442 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1074 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.2 MB.
-System memory in use after: 59.3 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1567.
-Total: 2.505400 ms (FindLiveObjects: 0.232600 ms CreateObjectMapping: 0.065100 ms MarkObjects: 2.161700 ms  DeleteObjects: 0.043900 ms)
+  Time since last request: 4.658309 seconds.
+  path: Assets/Scripts/ConsolePrint.cs
+  artifactKey: Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConsolePrint.cs using Guid(89c24e23796a3944d86bd90b435e974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63983b62aa4c3bc05cf8df799d5f2683') in 0.009375 seconds
+  Import took 0.011644 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
